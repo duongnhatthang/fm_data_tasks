@@ -45,7 +45,7 @@ export DATASET_PATH="$PWD/data/datasets"
 # Run
 To run inference, use
 ```
-poetry run python3 -m fm_data_tasks.run_infernece --help
+poetry run python3 -m fm_data_tasks.run_inference --help
 ```
 To see options. Importantly, the `--dry_run` flag will print out examples but not query OpenAI.
 
